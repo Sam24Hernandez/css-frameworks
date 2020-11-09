@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>BookShop | Venta de Libros Online</title>
+    <meta
+      name="description"
+      content="Desarrollo Web de una página que vende libros online"
+    />
+    <meta name="author" content="Sam Hernandez" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- === Plugins CSS === -->
+    <link
+      rel="stylesheet"
+      href="assets/plugins/bootstrap/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Main-menu -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="index.html">BookShop</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="shop.html">Tienda</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Productos
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Lista de Productos</a>
+              <a class="dropdown-item" href="#">Detalles de Productos</a>
+              <a class="dropdown-item" href="#">Destacados</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Ayuda</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Buscar Libros"
+            aria-label="Buscar"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Buscar
+          </button>
+        </form>
+      </div>
+    </nav>
+
+    <main role="main">
+      <section class="jumbotron text-center">
+        <div class="container">
+          <h1 class="book-title display-3">BookShop</h1>
+          <p class="book-para">
+            Encuentra las mejores recopilaciones de los clásicos de la
+            literatura moderna.
+          </p>
+          <p>
+            <a href="shop.html" class="btn btn-primary btn-lg" role="button"
+              >Libros Destacados &raquo;</a
+            >
+          </p>
+        </div>
+      </section>
+
+      <div class="book py-5 bg-light">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-3 shadow-sm" style="max-width: 600px">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img
+                      src="https://images-na.ssl-images-amazon.com/images/I/41fuAnZsA6L._AC._SR180,230.jpg"
+                      class="card-img"
+                      alt="Imagen"
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title font-weight-bold">
+                        Economía Feminista
+                      </h5>
+                      <p class="card-text card-detail-book">
+                        Economía feminista propone, basándose en...
+                      </p>
+                      <div class="btn-group">
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-primary"
+                        >
+                          Comprar
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary"
+                        >
+                          Ver
+                        </button>
+                      </div>
+                      <small class="text-muted">$235.00</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-3 shadow-sm" style="max-width: 600px">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img
+                      src="https://images-na.ssl-images-amazon.com/images/I/41fuAnZsA6L._AC._SR180,230.jpg"
+                      class="card-img"
+                      alt="Imagen"
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title font-weight-bold">
+                        Economía Feminista
+                      </h5>
+                      <p class="card-text card-detail-book">
+                        Economía feminista propone, basándose en...
+                      </p>
+                      <div class="btn-group">
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-primary"
+                        >
+                          Comprar
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary"
+                        >
+                          Ver
+                        </button>
+                      </div>
+                      <small class="text-muted">$235.00</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-3 shadow-sm" style="max-width: 600px">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img
+                      src="https://images-na.ssl-images-amazon.com/images/I/41fuAnZsA6L._AC._SR180,230.jpg"
+                      class="card-img"
+                      alt="Imagen"
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title font-weight-bold">
+                        Economía Feminista
+                      </h5>
+                      <p class="card-text card-detail-book">
+                        Economía feminista propone, basándose en...
+                      </p>
+                      <div class="btn-group">
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-primary"
+                        >
+                          Comprar
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary"
+                        >
+                          Ver
+                        </button>
+                      </div>
+                      <small class="text-muted">$235.00</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-3 shadow-sm" style="max-width: 600px">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img
+                      src="https://images-na.ssl-images-amazon.com/images/I/41wGpn7qMeL._AC._SR180,230.jpg"
+                      class="card-img"
+                      alt="Imagen"
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title font-weight-bold">Pedro Páramo</h5>
+                      <p class="card-text card-detail-book">
+                        Pedro Páramo es una novela corta del...
+                      </p>
+                      <div class="btn-group">
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-primary"
+                        >
+                          Comprar
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary"
+                        >
+                          Ver
+                        </button>
+                      </div>
+                      <small class="text-muted">$500.00</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-3 shadow-sm" style="max-width: 600px">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img
+                      src="https://images-na.ssl-images-amazon.com/images/I/41wGpn7qMeL._AC._SR180,230.jpg"
+                      class="card-img"
+                      alt="Imagen"
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title font-weight-bold">Pedro Páramo</h5>
+                      <p class="card-text card-detail-book">
+                        Pedro Páramo es una novela corta del...
+                      </p>
+                      <div class="btn-group">
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-primary"
+                        >
+                          Comprar
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary"
+                        >
+                          Ver
+                        </button>
+                      </div>
+                      <small class="text-muted">$500.00</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-3 shadow-sm" style="max-width: 600px">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img
+                      src="https://images-na.ssl-images-amazon.com/images/I/41wGpn7qMeL._AC._SR180,230.jpg"
+                      class="card-img"
+                      alt="Imagen"
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title font-weight-bold">Pedro Páramo</h5>
+                      <p class="card-text card-detail-book">
+                        Pedro Páramo es una novela corta del...
+                      </p>
+                      <div class="btn-group">
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-primary"
+                        >
+                          Comprar
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary"
+                        >
+                          Ver
+                        </button>
+                      </div>
+                      <small class="text-muted">$500.00</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-3 shadow-sm" style="max-width: 600px">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img
+                      src="https://images-na.ssl-images-amazon.com/images/I/61ckdiz3ybL._AC._SR180,230.jpg"
+                      class="card-img"
+                      alt="Imagen"
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title font-weight-bold">
+                        Rebelión en la Granja
+                      </h5>
+                      <p class="card-text card-detail-book">
+                        Rebelión en la granja es una novela corta satírica...
+                      </p>
+                      <div class="btn-group">
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-primary"
+                        >
+                          Comprar
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary"
+                        >
+                          Ver
+                        </button>
+                      </div>
+                      <small class="text-muted">$547.00</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-3 shadow-sm" style="max-width: 600px">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img
+                      src="https://images-na.ssl-images-amazon.com/images/I/61ckdiz3ybL._AC._SR180,230.jpg"
+                      class="card-img"
+                      alt="Imagen"
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title font-weight-bold">
+                        Rebelión en la Granja
+                      </h5>
+                      <p class="card-text card-detail-book">
+                        Rebelión en la granja es una novela corta satírica...
+                      </p>
+                      <div class="btn-group">
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-primary"
+                        >
+                          Comprar
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary"
+                        >
+                          Ver
+                        </button>
+                      </div>
+                      <small class="text-muted">$547.00</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-3 shadow-sm" style="max-width: 600px">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img
+                      src="https://images-na.ssl-images-amazon.com/images/I/61ckdiz3ybL._AC._SR180,230.jpg"
+                      class="card-img"
+                      alt="Imagen"
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title font-weight-bold">
+                        Rebelión en la Granja
+                      </h5>
+                      <p class="card-text card-detail-book">
+                        Rebelión en la granja es una novela corta satírica...
+                      </p>
+                      <div class="btn-group">
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-primary"
+                        >
+                          Comprar
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary"
+                        >
+                          Ver
+                        </button>
+                      </div>
+                      <small class="text-muted">$547.00</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-3 shadow-sm" style="max-width: 600px">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img
+                      src="https://images-na.ssl-images-amazon.com/images/I/41MoxqcFRSL._AC._SR180,230.jpg"
+                      class="card-img"
+                      alt="Imagen"
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title font-weight-bold">
+                        Una novela criminal
+                      </h5>
+                      <p class="card-text card-detail-book">
+                        "La mañana del 9 de diciembre de 2005, el...
+                      </p>
+                      <div class="btn-group">
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-primary"
+                        >
+                          Comprar
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary"
+                        >
+                          Ver
+                        </button>
+                      </div>
+                      <small class="text-muted">$349.00</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-3 shadow-sm" style="max-width: 600px">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img
+                      src="https://images-na.ssl-images-amazon.com/images/I/51R2SPerAHL._AC._SR180,230.jpg"
+                      class="card-img"
+                      alt="Imagen"
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title font-weight-bold">
+                        Aquellas Horas...
+                      </h5>
+                      <p class="card-text card-detail-book">
+                        Ésta es la historia del gran Gilberto Bosques Saldíva...
+                      </p>
+                      <div class="btn-group">
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-primary"
+                        >
+                          Comprar
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary"
+                        >
+                          Ver
+                        </button>
+                      </div>
+                      <small class="text-muted">$459.00</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-3 shadow-sm" style="max-width: 600px">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img
+                      src="https://images-na.ssl-images-amazon.com/images/I/41aM4xOZxaL._AC._SR180,230.jpg"
+                      class="card-img"
+                      alt="Imagen"
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title font-weight-bold">1984</h5>
+                      <p class="card-text card-detail-book">
+                        1984 es una novela política de ficción distópica...
+                      </p>
+                      <div class="btn-group">
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-primary"
+                        >
+                          Comprar
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary"
+                        >
+                          Ver
+                        </button>
+                      </div>
+                      <small class="text-muted">$235.00</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="text-center">
+              <div class="container">
+                <p>
+                  <a
+                    href="#"
+                    class="btn btn-outline-danger btn-lg my-2"
+                    role="button"
+                    >Cargar más</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="main-footer">
+      <div class="container">
+        <p>
+          BookShop &copy;
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+        </p>
+        <p>
+          Todos los Derechos Reservados | Desarrollado por
+          <a href="#" class="footer-name">Sam Hernández</a>
+        </p>
+      </div>
+    </footer>
+    <script src="assets/plugins/vendor/jquery-3.5.1.min.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/plugins/popper.min.js"></script>
+  </body>
+</html>
