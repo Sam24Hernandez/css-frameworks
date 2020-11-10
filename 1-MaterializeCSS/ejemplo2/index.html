@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Input Pretty</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="con-search notValue">
+      <div class="con-input">
+        <input
+          type="text"
+          onblur="handleBlur()"
+          onfocus="handleFocus(event)"
+          oninput="handleSearch(event)"
+          placeholder="Buscar Usuario"
+        />
+        <i class="bx bx-search"></i>
+        <i onclick="handleRemove()" class="bx bx-x"></i>
+      </div>
+
+      <div class="content-results">
+        <div class="con-results"></div>
+        <div class="not-results">Sin Resultados</div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
